@@ -1126,3 +1126,27 @@ h2::after{
 .subpage .subpage-inner{
   background: transparent !important;
 }
+
+/* ===========================
+   FIX: Kategorie grid spacing / last row
+   =========================== */
+
+.category-grid{
+  /* override fixed 5 cols */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+  justify-content: center;
+}
+
+/* keep cards consistent width so last row doesn’t look weird */
+.category{
+  width: 100%;
+  max-width: 260px;
+  justify-self: center;
+}
+
+/* Optional: nicer gaps on big screens */
+@media (min-width: 1100px){
+  .category-grid{
+    gap: 18px;
+  }
+}
