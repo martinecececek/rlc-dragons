@@ -5,9 +5,9 @@
          label: "Mládež a děti",
          dropdown: [
             { label: "Přípravka", href: "./pripravka.html" },
-            { label: "U12", href: "./u12.html" },
-            { label: "U16", href: "./u16.html" },
-            { label: "U19", href: "./u19.html" },
+            { label: "U12", href: "./u-12.html" },
+            { label: "U16", href: "./u-16.html" },
+            { label: "U19", href: "./u-19.html" },
          ],
       },
       { label: "Dospělí", href: "./dospeli.html" },
