@@ -22,6 +22,7 @@
             </div>
 
             <div class="footer-logos" aria-label="Partneři / loga">
+               <img src="./assets/knauf.png" alt="Knauf" />
                <img src="./assets/teplice.jpg" alt="Teplice" />
                <img src="./assets/krupka.png" alt="Krupka" />
                <img src="./assets/nsa.png" alt="Národní sportovní agentura" />
@@ -34,8 +35,10 @@
                </div>
                <div class="footer-col">
                   <h4>Mládež a děti</h4>
-                  <a href="./pripravka.html">Přípravka</a>
+                  <a href="./u-8.html">U8</a>
+                  <a href="./u-10.html">U10</a>
                   <a href="./u-12.html">U12</a>
+                  <a href="./u-14.html">U14</a>
                   <a href="./u-16.html">U16</a>
                   <a href="./u-19.html">U19</a>
                </div>
