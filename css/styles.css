@@ -1231,3 +1231,12 @@ h2::after {
       height: 420px;
    }
 }
+
+/* HERO image crop: keep the man visible (right side focus) */
+.hero-split-media img{
+  width: 100%;
+  height: 260px;        /* keep a fixed hero height */
+  object-fit: cover;    /* crop without stretching */
+  object-position: 85% 18%; /* <-- move crop to the RIGHT + slightly up */
+  display: block;
+}
